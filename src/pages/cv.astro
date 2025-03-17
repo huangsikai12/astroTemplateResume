@@ -4,54 +4,67 @@ import TimeLineElement from "../components/cv/TimeLine.astro";
 ---
 
 <BaseLayout title="Resume" sideBarActiveItemID="cv">
-  <div class="mb-5">
-    <div class="text-3xl w-full font-bold">Profile</div>
-  </div>
-
-  <div class="mb-10 text-justify">
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-    aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
-    aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-    cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-  </div>
 
   <div class="mb-5">
-    <div class="text-3xl w-full font-bold">Education</div>
-  </div>
-
-  <div class="time-line-container grid gap-4 mb-10">
-    <TimeLineElement
-      title="Title Name"
-      subtitle="[start year] to [end year] at [Study Center Name], [City], [Country]"
-    />
-    <TimeLineElement
-      title="Title Name"
-      subtitle="[start year] to [end year] at [Study Center Name], [City], [Country]"
-    />
-  </div>
-
-  <div class="mb-5">
-    <div class="text-3xl w-full font-bold">Experience</div>
+    <div class="text-3xl w-full font-bold">实习经历</div>
   </div>
 
   <div class="time-line-container mb-10">
     <TimeLineElement
-      title="Job Title at Project or Company Name"
-      subtitle="From [Start Date] to [End Date] at [Company], [City], [Country]"
+        title="百姓网股份有限公司————全栈开发工程师"
+        subtitle="2024.06——2024.09 研发部"
     >
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
+      <!--负责公司的网站需求改进及上线（PHP），维护和更新-->
     </TimeLineElement>
     <TimeLineElement
-      title="Job Title at Project or Company Name"
-      subtitle="From [Start Date] to [End Date] at [Company], [City], [Country]"
+        title="软科启点编程机构————兼职编程教师"
+        subtitle="2024.04——2024.10 教学部"
     >
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
     </TimeLineElement>
     <TimeLineElement
-      title="Job Title at Project or Company Name"
-      subtitle="From [Start Date] to [End Date] at [Company], [City], [Country]"
+        title="上海市实验学校————兼职人工智能社团教学老师"
+        subtitle="2023.09——2024.01 教学部"
     >
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
+    </TimeLineElement>
+
+    <TimeLineElement
+        title="QD机器人编程机构————兼职编程教师"
+        subtitle="2023.06——2024.01 教学部"
+    >
+    </TimeLineElement>
+
+  </div>
+
+  <div class="mb-5">
+    <div class="text-3xl w-full font-bold">竞赛经历</div>
+  </div>
+
+  <div class="time-line-container mb-10">
+    <TimeLineElement
+      title="第三届全国技能大赛上海市选拔赛——商务软件解决方案赛项（全栈开发方向）"
+      subtitle="冠军————2024.12"
+    >
+    </TimeLineElement>
+    <TimeLineElement
+        title="第九届中国国际互联网+大学生创新创业竞赛上海赛区"
+        subtitle="1铜奖，1优胜奖（负责人）————2023.09"
+    >
+    </TimeLineElement>
+    <TimeLineElement
+        title="2023金砖职业技能竞赛——移动应用开发赛项（安卓开发方向）"
+        subtitle="全国三等奖————2023.07"
+    >
+    </TimeLineElement>
+
+    <TimeLineElement
+        title="2022第二届物联网技术大赛国际邀请赛（智能硬件方向）"
+        subtitle="中国赛区二等奖————2022.12"
+    >
+    </TimeLineElement>
+    <TimeLineElement
+        title="阿里巴巴天池大赛全球未来汽车智能场景创新大赛（深度学习方向）"
+        subtitle="亚军————2022.12"
+    >
     </TimeLineElement>
   </div>
 
@@ -92,6 +105,9 @@ import TimeLineElement from "../components/cv/TimeLine.astro";
     <li>
       <a href="#" target="_blank">上海商学院信息安全漏洞报送</a>
     </li>
+    <li>
+      <a href="#" target="_blank">开放水域潜水员（OW）</a>
+    </li>
   </ul>
 
   <div class="mb-5">
@@ -100,6 +116,8 @@ import TimeLineElement from "../components/cv/TimeLine.astro";
 
   <ul class="list-disc md:columns-5 columns-2 mx-6">
     <li>JAVA</li>
+    <li>PHP</li>
+    <li>ArkTs</li>
     <li>Kotlin</li>
     <li>C#</li>
     <li>Dart</li>
@@ -118,5 +136,8 @@ import TimeLineElement from "../components/cv/TimeLine.astro";
     <li>Flutter</li>
     <li>Android Native</li>
     <li>Arduino智能硬件开发</li>
+    <li>SpringBoot</li>
+    <li>Asp.NET</li>
   </ul>
+
 </BaseLayout>
